@@ -35,7 +35,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tester2/workspace/checkCI/hello
+CMAKE_SOURCE_DIR = /home/tester2/workspace/checkCI
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/tester2/workspace/checkCI/build
@@ -50,18 +50,18 @@ include CMakeFiles/hello.dir/progress.make
 include CMakeFiles/hello.dir/flags.make
 
 CMakeFiles/hello.dir/src/main.cpp.o: CMakeFiles/hello.dir/flags.make
-CMakeFiles/hello.dir/src/main.cpp.o: /home/tester2/workspace/checkCI/hello/src/main.cpp
+CMakeFiles/hello.dir/src/main.cpp.o: ../src/main.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/tester2/workspace/checkCI/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/hello.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hello.dir/src/main.cpp.o -c /home/tester2/workspace/checkCI/hello/src/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hello.dir/src/main.cpp.o -c /home/tester2/workspace/checkCI/src/main.cpp
 
 CMakeFiles/hello.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tester2/workspace/checkCI/hello/src/main.cpp > CMakeFiles/hello.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tester2/workspace/checkCI/src/main.cpp > CMakeFiles/hello.dir/src/main.cpp.i
 
 CMakeFiles/hello.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tester2/workspace/checkCI/hello/src/main.cpp -o CMakeFiles/hello.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tester2/workspace/checkCI/src/main.cpp -o CMakeFiles/hello.dir/src/main.cpp.s
 
 CMakeFiles/hello.dir/src/main.cpp.o.requires:
 .PHONY : CMakeFiles/hello.dir/src/main.cpp.o.requires
@@ -97,6 +97,6 @@ CMakeFiles/hello.dir/clean:
 .PHONY : CMakeFiles/hello.dir/clean
 
 CMakeFiles/hello.dir/depend:
-	cd /home/tester2/workspace/checkCI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tester2/workspace/checkCI/hello /home/tester2/workspace/checkCI/hello /home/tester2/workspace/checkCI/build /home/tester2/workspace/checkCI/build /home/tester2/workspace/checkCI/build/CMakeFiles/hello.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tester2/workspace/checkCI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tester2/workspace/checkCI /home/tester2/workspace/checkCI /home/tester2/workspace/checkCI/build /home/tester2/workspace/checkCI/build /home/tester2/workspace/checkCI/build/CMakeFiles/hello.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hello.dir/depend
 

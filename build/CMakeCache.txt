@@ -154,7 +154,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 hello_BINARY_DIR:STATIC=/home/tester2/workspace/checkCI/build
 
 //Value Computed by CMake
-hello_SOURCE_DIR:STATIC=/home/tester2/workspace/checkCI/hello
+hello_SOURCE_DIR:STATIC=/home/tester2/workspace/checkCI
 
 
 ########################
@@ -215,7 +215,7 @@ CMAKE_GENERATOR:INTERNAL=Unix Makefiles
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Start directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/tester2/workspace/checkCI/hello
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/tester2/workspace/checkCI
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

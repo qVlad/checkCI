@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tester2/workspace/checkCI/hello/src/main.cpp
+/home/tester2/workspace/checkCI/src/main.cpp
 iostream
 -
 

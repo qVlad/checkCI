@@ -1,4 +1,4 @@
-# Install script for directory: /home/tester2/workspace/checkCI/hello
+# Install script for directory: /home/tester2/workspace/checkCI
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

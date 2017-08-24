@@ -7,15 +7,31 @@ SET(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "../CMakeLists.txt"
   "CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/2.8.12.2/CMakeSystem.cmake"
-  "/home/tester2/workspace/checkCI/hello/CMakeLists.txt"
+  "/usr/share/cmake-2.8/Modules/CMakeCXXCompiler.cmake.in"
+  "/usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"
   "/usr/share/cmake-2.8/Modules/CMakeCXXInformation.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeClDeps.cmake"
   "/usr/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeDetermineCXXCompiler.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeDetermineCompiler.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeDetermineCompilerABI.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeDetermineCompilerId.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeDetermineSystem.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeFindBinUtils.cmake"
   "/usr/share/cmake-2.8/Modules/CMakeGenericSystem.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeParseImplicitLinkInfo.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeSystem.cmake.in"
   "/usr/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeTestCXXCompiler.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeTestCompilerCommon.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeUnixFindMake.cmake"
   "/usr/share/cmake-2.8/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-2.8/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake-2.8/Modules/MultiArchCross.cmake"
+  "/usr/share/cmake-2.8/Modules/Platform/Linux-CXX.cmake"
   "/usr/share/cmake-2.8/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-2.8/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-2.8/Modules/Platform/Linux.cmake"
@@ -30,6 +46,9 @@ SET(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 SET(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/2.8.12.2/CMakeSystem.cmake"
+  "CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
