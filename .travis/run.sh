@@ -15,7 +15,7 @@ if [[ "$(uname -s)" == 'Linux' ]]; then
     CXX=$CXX_COMPILER
 fi
 
-mkdir build && cd build
+mkdir -p build && cd build
 conan install .. -s build_type=$BUILD_TYPE --build=missing
 cmake .. -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DCMAKE_C_COMPILER=$C_COMPILER -DCMAKE_CXX_COMPILER=$CXX_COMPILER
 cmake --build . -- VERBOSE=1
