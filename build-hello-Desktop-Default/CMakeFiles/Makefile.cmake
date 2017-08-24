@@ -37,5 +37,5 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/hello_SRC.dir/DependInfo.cmake"
+  "CMakeFiles/hello.dir/DependInfo.cmake"
   )

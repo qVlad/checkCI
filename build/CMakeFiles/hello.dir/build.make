@@ -38,7 +38,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/tester2/workspace/checkCI/hello
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tester2/workspace/checkCI/build-hello-Desktop-Default
+CMAKE_BINARY_DIR = /home/tester2/workspace/checkCI/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hello.dir/depend.make
@@ -51,7 +51,7 @@ include CMakeFiles/hello.dir/flags.make
 
 CMakeFiles/hello.dir/src/main.cpp.o: CMakeFiles/hello.dir/flags.make
 CMakeFiles/hello.dir/src/main.cpp.o: /home/tester2/workspace/checkCI/hello/src/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/tester2/workspace/checkCI/build-hello-Desktop-Default/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tester2/workspace/checkCI/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/hello.dir/src/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/hello.dir/src/main.cpp.o -c /home/tester2/workspace/checkCI/hello/src/main.cpp
 
@@ -97,6 +97,6 @@ CMakeFiles/hello.dir/clean:
 .PHONY : CMakeFiles/hello.dir/clean
 
 CMakeFiles/hello.dir/depend:
-	cd /home/tester2/workspace/checkCI/build-hello-Desktop-Default && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tester2/workspace/checkCI/hello /home/tester2/workspace/checkCI/hello /home/tester2/workspace/checkCI/build-hello-Desktop-Default /home/tester2/workspace/checkCI/build-hello-Desktop-Default /home/tester2/workspace/checkCI/build-hello-Desktop-Default/CMakeFiles/hello.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tester2/workspace/checkCI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tester2/workspace/checkCI/hello /home/tester2/workspace/checkCI/hello /home/tester2/workspace/checkCI/build /home/tester2/workspace/checkCI/build /home/tester2/workspace/checkCI/build/CMakeFiles/hello.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hello.dir/depend
 

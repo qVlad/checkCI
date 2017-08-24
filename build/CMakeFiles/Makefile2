@@ -53,38 +53,38 @@ CMAKE_SOURCE_DIR = /home/tester2/workspace/checkCI/hello
 CMAKE_BINARY_DIR = /home/tester2/workspace/checkCI/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/hello_SRC.dir
+# Target rules for target CMakeFiles/hello.dir
 
 # All Build rule for target.
-CMakeFiles/hello_SRC.dir/all:
-	$(MAKE) -f CMakeFiles/hello_SRC.dir/build.make CMakeFiles/hello_SRC.dir/depend
-	$(MAKE) -f CMakeFiles/hello_SRC.dir/build.make CMakeFiles/hello_SRC.dir/build
+CMakeFiles/hello.dir/all:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/tester2/workspace/checkCI/build/CMakeFiles  1
-	@echo "Built target hello_SRC"
-.PHONY : CMakeFiles/hello_SRC.dir/all
+	@echo "Built target hello"
+.PHONY : CMakeFiles/hello.dir/all
 
 # Include target in all.
-all: CMakeFiles/hello_SRC.dir/all
+all: CMakeFiles/hello.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hello_SRC.dir/rule: cmake_check_build_system
+CMakeFiles/hello.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tester2/workspace/checkCI/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello_SRC.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tester2/workspace/checkCI/build/CMakeFiles 0
-.PHONY : CMakeFiles/hello_SRC.dir/rule
+.PHONY : CMakeFiles/hello.dir/rule
 
 # Convenience name for target.
-hello_SRC: CMakeFiles/hello_SRC.dir/rule
-.PHONY : hello_SRC
+hello: CMakeFiles/hello.dir/rule
+.PHONY : hello
 
 # clean rule for target.
-CMakeFiles/hello_SRC.dir/clean:
-	$(MAKE) -f CMakeFiles/hello_SRC.dir/build.make CMakeFiles/hello_SRC.dir/clean
-.PHONY : CMakeFiles/hello_SRC.dir/clean
+CMakeFiles/hello.dir/clean:
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/clean
+.PHONY : CMakeFiles/hello.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/hello_SRC.dir/clean
+clean: CMakeFiles/hello.dir/clean
 .PHONY : clean
 
 #=============================================================================
