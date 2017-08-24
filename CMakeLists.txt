@@ -1,3 +1,8 @@
+include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+conan_basic_setup()
+
+target_link_libraries(${PROJECT_NAME} ${CONAN_LIBS})
+
 project(hello CXX)
 cmake_minimum_required(VERSION 2.8)
 #aux_source_directory(. SRC_LIST)
@@ -6,3 +11,5 @@ src/main.cpp
 )
 add_executable(${PROJECT_NAME} ${${PROJECT_NAME}_SRC})
 
+enable_testing()
+add_subdirectory(test)
